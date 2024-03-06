@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.main__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 8px;
+    align-items: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.main__blog {
+    margin-left: 16px;
+}
+.main__menu__element {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #333333B2;
+}
+.main__menu__arrow {
+    height: 16px;
+    color: #333333B2;
+}
+.articles-filters {
+    display: flex;
+    margin-top: 32px;
+    margin-right: 0;
+    margin-left: 16px;
+    gap: 8px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+.articles-filters__element {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: 32px;
+    width: auto;
+    border-radius: 24px;
+    background-color: white;
+    border: solid #C1C5CD;
+    cursor: pointer;
+}
+.articles-filters__element__selected {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: white;
+    border: solid#16C8BB;
+    border-width: 2px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.filter-emoji {
+    height: 20px;
+    width: 20px;
+    padding-left: 4px;
+}
